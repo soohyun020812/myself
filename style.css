@@ -1,0 +1,28 @@
+.grid {
+    width: 400px;
+    height: 700px;
+    background-color: aliceblue;
+
+    position: relative;
+    font-family: fantasy;
+    font-size: 100px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 5;
+    color: deepskyblue;
+}
+
+.doodler {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: lightcoral;
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-color: aqua;
+    position: absolute;
+}
