@@ -1,1 +1,2 @@
-문제 찾아서 코드 참고하며 해보기
+두더지 게임 
+https://www.youtube.com/watch?v=8xPsg6yv7TU
