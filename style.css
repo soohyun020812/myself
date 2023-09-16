@@ -1,34 +1,30 @@
-.game-container {
+.grid {
     width: 500px;
-    height: 730px;
-    position: absolute;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #87CEEB ;
+
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    font-size: 100px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 5;
+    color: #FFFFFF;
 }
 
-.sky {
-    background-color: lightblue;
-    width: 500px;
-    height: 580px;
+.doodler {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #808080;
     position: absolute;
+    animation: moveObstacle 2s linear infinite;
 }
 
-.ground {
-    background-color:lightgreen;
-    width: 500px;
-    height: 150px;
-    position: absolute;
-    top: 580px;
-}
-
-.bird {
-    background-color: khaki;
-    width: 60px; 
-    height: 45px;
-    position: absolute;
-}
-
-.obstacle {
-    background-color: darkgreen;
-    width: 60px;
-    height: 300px;
+.platform {
+    width: 85px;
+    height: 15px;
+    background-color: #008000;
     position: absolute;
 }
