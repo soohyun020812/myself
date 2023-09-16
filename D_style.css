@@ -1,0 +1,30 @@
+.grid {
+    width: 500px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #87CEEB ;
+
+    position: relative;
+    font-family: 'Arial', sans-serif;
+    font-size: 100px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 5;
+    color: #FFFFFF;
+}
+
+.doodler {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #808080;
+    position: absolute;
+    animation: moveObstacle 2s linear infinite;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-color: #008000;
+    position: absolute;
+}
